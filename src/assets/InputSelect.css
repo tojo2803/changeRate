@@ -1,0 +1,38 @@
+.search {
+    display: inline-flex;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 300px;
+    background-color: white;
+   
+  }
+  .ipt {
+    border: none;
+    width: 275px;
+    height: 35px;
+  }
+  .ipt:focus {
+    outline: none; /* Retire l'indicateur visuel de focus */
+  }
+  .liste {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-shadow: #012970;
+    overflow-y: scroll;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    position: absolute;
+  }
+  .list {
+    padding: 10px;
+    margin: 0px;
+  }
+  .list:hover {
+    background-color: #f6f9ff;
+    border: 1px solid #f6f9ff;
+    border-radius: 10px;
+  }
