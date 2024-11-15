@@ -5,6 +5,7 @@ import { dataStore } from '@/stores/data'
 import axios from 'axios'
 import { vi, describe, it, beforeEach, expect } from 'vitest'
 
+
 vi.mock('axios') // Mock de axios pour simuler l'API
 
 describe('Button.vue', () => {
@@ -13,7 +14,7 @@ describe('Button.vue', () => {
         setActivePinia(createPinia())
     })
 
-    it('calls the conversion API and updates dataStore and booleanStore', async () => {
+    it("appelle de l' API et  mise à jours des donner dans datastore et booleanStore", async () => {
         // Définition de la réponse simulée de l'API
         const mockResponse = {
             data: { conversion_result: 120, conversion_rate: 0.85 }
