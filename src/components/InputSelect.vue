@@ -94,6 +94,6 @@ watch(txt, () => {
     </div>
   </div>
 </template>
-<style scoped src="../assets/inputSelect.css">
+<style scoped src="../assets/InputSelect.css">
 
 </style>
