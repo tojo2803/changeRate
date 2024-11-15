@@ -63,10 +63,9 @@ watch(txt, () => {
 
   <div>
     <div class="search" v-if = "!display">
-      <img  width="20px" height="20px" class="ms-1" />
       <input class="ipt ms-1" type="text" :value="[inputValue == '' ? default_devise: inputValue ]" /><img
         class="me-1"
-        src="../assets/arrow.svg"
+        src="./icons/arrow.svg"
       
         @click="display_select()"
       />
@@ -79,7 +78,7 @@ watch(txt, () => {
           placeholder="chercher le nom du Devise"
           v-model="txt"
 
-        /><img src="../assets/close.svg" @click="display_select()" />
+        /><img src="./icons/close.svg" @click="display_select()" />
       </div>
       <div class="liste mt-2">
         <p
@@ -95,6 +94,6 @@ watch(txt, () => {
     </div>
   </div>
 </template>
-<style scoped src="../assets/inputSelect.css">
+<!-- <style scoped src="../assets/inputSelect.css">
 
-</style>
+</style> -->
